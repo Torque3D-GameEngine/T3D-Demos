@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-03-29T22:22:44Z</created>
+    <modified>2011-03-29T22:22:44Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="1.000000"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map__20-image" name="Map__20">
+      <init_from>file://D:\SVN\THREED\demos\SectorT3D\game\art\shapes\misc\TargetCityColorMap.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="CityNormalLayerMat" name="CityNormalLayerMat">
+      <instance_effect url="#CityNormalLayerMat-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="CityNormalLayerMat-fx" name="CityNormalLayerMat">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__20-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="MainMesh_D128-lib" name="MainMesh_D128Mesh">
+      <mesh>
+        <source id="MainMesh_D128-lib-Position">
+          <float_array id="MainMesh_D128-lib-Position-array" count="12">
+-15135.229492 -15060.002930 0.000000
+15149.334961 -15060.001953 0.000000
+-15135.230469 15195.337891 0.000000
+15149.334961 15195.337891 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#MainMesh_D128-lib-Position-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MainMesh_D128-lib-Normal0">
+          <float_array id="MainMesh_D128-lib-Normal0-array" count="18">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#MainMesh_D128-lib-Normal0-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MainMesh_D128-lib-UV0">
+          <float_array id="MainMesh_D128-lib-UV0-array" count="8">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#MainMesh_D128-lib-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="MainMesh_D128-lib-Vertex">
+          <input semantic="POSITION" source="#MainMesh_D128-lib-Position"/>
+        </vertices>
+        <polygons material="CityNormalLayerMat" count="2">
+          <input semantic="VERTEX" offset="0" source="#MainMesh_D128-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#MainMesh_D128-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#MainMesh_D128-lib-UV0"/>
+          <p>2 0 2 0 1 0 1 2 1</p>
+          <p>1 3 1 3 4 3 2 5 2</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="SceneAmbient-lib" name="SceneAmbientMesh">
+      <technique_common>
+        <ambient>
+          <color>0.745098 0.745098 0.745098</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="base01" name="base01">
+        <scale sid="scale">0.025400 0.025400 0.025400</scale>
+        <node id="start01" name="start01">
+          <node id="MainMesh_D128" name="MainMesh_D128">
+            <translate sid="translate">-7.791016 -57.599121 -9140.495117</translate>
+            <instance_geometry url="#MainMesh_D128-lib">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="CityNormalLayerMat" target="#CityNormalLayerMat"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+

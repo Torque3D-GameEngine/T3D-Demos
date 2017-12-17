@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-03-29T23:52:21Z</created>
+    <modified>2011-03-29T23:52:21Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="1.000000"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map__19-image" name="Map__19">
+      <init_from>file://D:\SVN\THREED\demos\SectorT3D\game\art\shapes\backdrop\backdrop01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material__811" name="Material__811">
+      <instance_effect url="#Material__811-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material__811-fx" name="Material__811">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__19-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="SmallBld2-lib" name="SmallBld2Mesh">
+      <mesh>
+        <source id="SmallBld2-lib-Position">
+          <float_array id="SmallBld2-lib-Position-array" count="66">
+49125.070313 -20355.820313 664.115906
+51530.890625 -20355.822266 664.115906
+51530.890625 -19767.328125 664.115906
+48976.476563 -19915.919922 664.115906
+49125.070313 -20355.820313 2673.165283
+51530.890625 -20355.822266 2319.243896
+51530.890625 -19767.328125 2319.243896
+48976.476563 -19915.919922 2673.165283
+51227.609375 -20355.822266 2673.165283
+51227.609375 -19767.328125 2673.165283
+48976.476563 -20207.226563 664.115906
+49125.070313 -19767.326172 664.115906
+48976.476563 -20207.226563 2673.165283
+49125.070313 -19767.326172 2673.165283
+49042.515625 -20339.310547 664.115906
+48992.984375 -20289.779297 664.115906
+48992.984375 -19833.367188 664.115906
+49042.515625 -19783.835938 664.115906
+48992.984375 -20289.779297 2673.165283
+49042.515625 -20339.310547 2673.165283
+49042.515625 -19783.835938 2673.165283
+48992.984375 -19833.367188 2673.165283
+</float_array>
+          <technique_common>
+            <accessor source="#SmallBld2-lib-Position-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallBld2-lib-Normal0">
+          <float_array id="SmallBld2-lib-Normal0-array" count="288">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.098531 -0.995134 -0.000000
+-0.000001 -1.000000 -0.000000
+-0.000001 -1.000000 -0.000000
+-0.000001 -1.000000 -0.000000
+-0.000001 -1.000000 -0.000000
+-0.098531 -0.995134 -0.000000
+-0.098531 -0.995134 -0.000000
+-0.000001 -1.000000 -0.000000
+-0.098531 -0.995134 -0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000001 1.000000 0.000000
+-0.098530 0.995134 0.000000
+-0.098530 0.995134 0.000000
+-0.098530 0.995134 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+-0.995135 0.098522 0.000000
+-0.995135 -0.098522 0.000000
+-0.995135 -0.098522 0.000000
+-0.995135 -0.098522 0.000000
+-0.995135 0.098522 0.000000
+-0.995135 0.098522 0.000000
+0.759341 0.000000 0.650693
+0.759341 0.000000 0.650693
+0.759341 0.000000 0.650693
+0.759341 0.000000 0.650693
+0.759341 0.000000 0.650693
+0.759341 0.000000 0.650693
+-0.995135 -0.098522 0.000000
+-0.881682 -0.471844 0.000000
+-0.881682 -0.471844 0.000000
+-0.881682 -0.471844 0.000000
+-0.995135 -0.098522 0.000000
+-0.995135 -0.098522 0.000000
+-0.098530 0.995134 0.000000
+-0.471852 0.881678 0.000000
+-0.471852 0.881678 0.000000
+-0.471852 0.881678 0.000000
+-0.098530 0.995134 0.000000
+-0.098530 0.995134 0.000000
+-0.881682 -0.471844 0.000000
+-0.471852 -0.881678 0.000000
+-0.471852 -0.881678 0.000000
+-0.471852 -0.881678 0.000000
+-0.881682 -0.471844 0.000000
+-0.881682 -0.471844 0.000000
+-0.471852 -0.881678 0.000000
+-0.098531 -0.995134 -0.000000
+-0.098531 -0.995134 -0.000000
+-0.098531 -0.995134 -0.000000
+-0.471852 -0.881678 0.000000
+-0.471852 -0.881678 0.000000
+-0.471852 0.881678 0.000000
+-0.881682 0.471844 0.000000
+-0.881682 0.471844 0.000000
+-0.881682 0.471844 0.000000
+-0.471852 0.881678 0.000000
+-0.471852 0.881678 0.000000
+-0.881682 0.471844 0.000000
+-0.995135 0.098522 0.000000
+-0.995135 0.098522 0.000000
+-0.995135 0.098522 0.000000
+-0.881682 0.471844 0.000000
+-0.881682 0.471844 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#SmallBld2-lib-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallBld2-lib-UV0">
+          <float_array id="SmallBld2-lib-UV0-array" count="72">
+0.906759 0.236073
+0.970534 0.236073
+0.970534 0.463925
+0.968745 0.472872
+0.963377 0.478239
+0.954431 0.480028
+0.922862 0.480028
+0.913916 0.478239
+0.908548 0.472872
+0.906759 0.463925
+0.906759 0.189592
+0.970534 0.189592
+0.422773 0.349923
+0.609781 0.349918
+0.609783 0.483161
+0.446351 0.483161
+0.422776 0.460170
+0.628314 0.349917
+0.650977 0.349929
+0.650977 0.483161
+0.628314 0.483161
+0.616325 0.349918
+0.616326 0.483161
+0.621771 0.349918
+0.621771 0.483161
+0.669346 0.349941
+0.854525 0.349937
+0.854526 0.459106
+0.831183 0.483161
+0.669348 0.483161
+0.899822 0.349937
+0.899822 0.459106
+0.657475 0.349941
+0.657476 0.483161
+0.662867 0.349941
+0.662868 0.483161
+</float_array>
+          <technique_common>
+            <accessor source="#SmallBld2-lib-UV0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="SmallBld2-lib-Vertex">
+          <input semantic="POSITION" source="#SmallBld2-lib-Position"/>
+        </vertices>
+        <polygons material="Material__811" count="32">
+          <input semantic="VERTEX" offset="0" source="#SmallBld2-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#SmallBld2-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#SmallBld2-lib-UV0"/>
+          <p>8 0 0 9 1 1 13 2 2</p>
+          <p>13 3 2 20 4 3 8 5 0</p>
+          <p>8 6 0 20 7 3 4 8 9</p>
+          <p>20 9 3 21 10 4 4 11 9</p>
+          <p>4 12 9 21 13 4 19 14 8</p>
+          <p>21 15 4 7 16 5 19 17 8</p>
+          <p>19 18 8 7 19 5 18 20 7</p>
+          <p>7 21 5 12 22 6 18 23 7</p>
+          <p>0 24 25 1 25 26 5 26 27</p>
+          <p>5 27 27 8 28 28 0 29 25</p>
+          <p>0 30 25 8 31 28 4 32 29</p>
+          <p>1 33 26 2 34 30 6 35 31</p>
+          <p>6 36 31 5 37 27 1 38 26</p>
+          <p>2 39 12 11 40 13 13 41 14</p>
+          <p>13 42 14 9 43 15 2 44 12</p>
+          <p>2 45 12 9 46 15 6 47 16</p>
+          <p>3 48 17 10 49 18 12 50 19</p>
+          <p>12 51 19 7 52 20 3 53 17</p>
+          <p>8 54 0 5 55 10 6 56 11</p>
+          <p>6 57 11 9 58 1 8 59 0</p>
+          <p>10 60 18 15 61 32 18 62 33</p>
+          <p>18 63 33 12 64 19 10 65 18</p>
+          <p>11 66 13 17 67 21 20 68 22</p>
+          <p>20 69 22 13 70 14 11 71 13</p>
+          <p>15 72 32 14 73 34 19 74 35</p>
+          <p>19 75 35 18 76 33 15 77 32</p>
+          <p>14 78 34 0 79 25 4 80 29</p>
+          <p>4 81 29 19 82 35 14 83 34</p>
+          <p>17 84 21 16 85 23 21 86 24</p>
+          <p>21 87 24 20 88 22 17 89 21</p>
+          <p>16 90 23 3 91 17 7 92 20</p>
+          <p>7 93 20 21 94 24 16 95 23</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="SceneAmbient-lib" name="SceneAmbientMesh">
+      <technique_common>
+        <ambient>
+          <color>0.745098 0.745098 0.745098</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="SmallBld2" name="SmallBld2">
+        <translate sid="translate">265.996886 100.885203 -237.825211</translate>
+        <rotate sid="rotateZ">0 0 1 0.000010</rotate>
+        <scale sid="scale">0.012480 0.012480 0.016403</scale>
+        <node id="SmallBld2-Pivot" name="SmallBld2-Pivot">
+          <translate>-50253.687500 20061.574219 -1668.640137</translate>
+          <rotate>0.000000 0.000000 0.000000 0.000000</rotate>
+          <instance_geometry url="#SmallBld2-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Material__811" target="#Material__811"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+
