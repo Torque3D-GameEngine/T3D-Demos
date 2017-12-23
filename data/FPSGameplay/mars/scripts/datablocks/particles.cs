@@ -649,3 +649,8 @@ datablock ParticleEmitterData(DesertDustDescendingParticleEmitterData)
    ejectionOffset = "10";
    softParticles = "1";
 };
+
+datablock ParticleEmitterNodeData(FliesNode)
+{
+    timeMultiple = 1;
+};

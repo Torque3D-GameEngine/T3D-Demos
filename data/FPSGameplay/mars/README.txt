@@ -1,5 +1,4 @@
 
-
 Copy this level files inside of folder FPSGamplay/levels
 
 mars/levels/Mars.mis
@@ -29,5 +28,10 @@ exec("data/FPSGameplay/mars/scripts/datablocks/audioData.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/audioProfiles.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/particles.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/environment.cs");
+exec("data/FPSGameplay/mars/scripts/datablocks/weapons/grenadeLauncher.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/player.cs");
 
+// LOAD MARS BURG DEATHBALL SERVER SCRIPTS
+exec("data/FPSGameplay/mars/scripts/server/deathMatchGame.cs");
+
+If you want to play as Gideon in Burg level and use his weapon, type preparePlayer(); in the console. After the level finished loading.

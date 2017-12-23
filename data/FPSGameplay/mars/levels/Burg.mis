@@ -7,7 +7,11 @@ exec("data/FPSGameplay/mars/scripts/datablocks/audioData.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/audioProfiles.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/particles.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/environment.cs");
+exec("data/FPSGameplay/mars/scripts/datablocks/weapons/grenadeLauncher.cs");
 exec("data/FPSGameplay/mars/scripts/datablocks/player.cs");
+
+// LOAD MARS BURG DEATHBALL SERVER SCRIPTS
+exec("data/FPSGameplay/mars/scripts/server/deathMatchGame.cs");
 
 //--- OBJECT WRITE BEGIN ---
 new SimGroup(MissionGroup) {
@@ -4248,7 +4252,7 @@ new LevelInfo(theLevelInfo) {
       logWeight = "0.9";
       fadeStartDistance = "0";
       lastSplitTerrainOnly = "0";
-      representedInLightmap = "1";
+      representedInLightmap = "0";
       shadowDarkenColor = "0.482353 0.482353 0.482353 1";
       includeLightmappedGeometryInShadow = "0";
       position = "-61.7562 73.8255 -83.1683";
