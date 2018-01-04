@@ -1,11 +1,6 @@
 
 echo("*** LOAD PACICIF DATABLOCK - particles.cs ***");
 
-datablock ParticleEmitterNodeData(DefaultParticleEmitterNodeData)
-{
-   timeMultiple = 1;
-};
-
 datablock ParticleData(ParticleMist)
 {
    textureName = "data/FPSGameplay/pacific/art/particles/mist.png";

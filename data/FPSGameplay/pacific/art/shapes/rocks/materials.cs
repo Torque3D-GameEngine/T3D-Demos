@@ -72,7 +72,6 @@ singleton Material(_20_smallrocksix_tex_underwater_rock)
 
 	diffuseMap[0] = "./tex_rock_underwater_dif.dds";
 	normalMap[0] = "./tex_rock_underwater_nrm.dds";
-	specularMap[0] = "";
 
 	diffuseColor[0] = "1 1 1 1";
 	specular[0] = "0.9 0.9 0.9 1";
@@ -106,56 +105,6 @@ singleton Material(_23_volcanicrockone_tex_volcano_rocks)
 	translucent = false;
 	translucentBlendOp = "None";
 };
-
-
-
-//--- 17_smallrockthree.DAE MATERIALS BEGIN ---
-
-//--- 17_smallrockthree.DAE MATERIALS END ---
-
-//--- 18_smallrockfour.DAE MATERIALS BEGIN ---
-
-//--- 18_smallrockfour.DAE MATERIALS END ---
-
-//--- 15_smallrockone.DAE MATERIALS BEGIN ---
-
-//--- 15_smallrockone.DAE MATERIALS END ---
-
-//--- 16_smallrocktwo.DAE MATERIALS BEGIN ---
-
-//--- 16_smallrocktwo.DAE MATERIALS END ---
-
-//--- 19_smallrockfive.DAE MATERIALS BEGIN ---
-
-//--- 19_smallrockfive.DAE MATERIALS END ---
-
-//--- 02_prismone.DAE MATERIALS BEGIN ---
-
-//--- 02_prismone.DAE MATERIALS END ---
-
-//--- 07_shortcone.DAE MATERIALS BEGIN ---
-
-//--- 07_shortcone.DAE MATERIALS END ---
-
-//--- 08_layeredone.DAE MATERIALS BEGIN ---
-
-//--- 08_layeredone.DAE MATERIALS END ---
-
-//--- 14_ggrockthree.DAE MATERIALS BEGIN ---
-
-//--- 14_ggrockthree.DAE MATERIALS END ---
-
-//--- 01_ovalone.DAE MATERIALS BEGIN ---
-
-//--- 01_ovalone.DAE MATERIALS END ---
-
-//--- 10_outcroppingone.DAE MATERIALS BEGIN ---
-
-//--- 10_outcroppingone.DAE MATERIALS END ---
-
-//--- 09_layeredtwo.DAE MATERIALS BEGIN ---
-
-//--- 09_layeredtwo.DAE MATERIALS END ---
 
 //--- 11_groupone.DAE MATERIALS BEGIN ---
 singleton Material(_11_groupone_ColorEffectR88G199B225_material)

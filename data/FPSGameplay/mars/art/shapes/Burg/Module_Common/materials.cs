@@ -1667,22 +1667,7 @@ singleton Material(LMA_WallC_Burg_2_Module_Common_LMA_WallC_Material9)
 	mapTo = "Burg_2_Module_Common_LMA_WallC-Material9";
 	toneMap[0] = "LMA_WallC";
 };
-singleton Material(LMA_WallC_Burg_2_Module_Common_LMA_WallC_Material10)
-{
-	diffuseColor[0] = "1 1 1 1";
-	specular[0] = "1 1 1 1";
-	specularPower[0] = 8;
-	pixelSpecular[0] = false;
-	emissive[0] = false;
-	doubleSided = false;
-	translucent = false;
-	translucentBlendOp = "None";
-	mapTo = "Burg_2_Module_Common_LMA_WallC-Material10";
-	toneMap[0] = "LMA_WallC";
-	diffuseMap[0] = "data/FPSGameplay/mars/art/shapes/Burg/WindowSheet";
-	normalMap[0] = "data/FPSGameplay/mars/art/shapes/Burg/WindowSheet_NRM";
-	specularMap[0] = "data/FPSGameplay/mars/art/shapes/Burg/WindowSheet_SPEC";
-};
+
 singleton Material(LMA_WallC_Burg_2_Module_Common_LMA_WallC_Material11)
 {
 	diffuseColor[0] = "1 1 1 1";
