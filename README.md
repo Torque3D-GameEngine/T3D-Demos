@@ -8,11 +8,11 @@ GarageGames released the arts of T3D Demos with MIT License. You can download th
 - DeathBall
 - Pacific
 - Sector
-- ChinaTown (Done - Reviewing the licensing...)
+- ChinaTown
 
 **NOTES:**
 * This demo was tested and updated to the last development branch of Torque3D Engine. (Commit on Nov 27, 2017 - [74b7e4c](https://github.com/GarageGames/Torque3D/tree/74b7e4cd89f4a0fee65d3f831c35df349d16f8c3))
-* This demo levels are the original released from GarageGames to the Torque3D comunity.
+* This demo levels are the original released from GarageGames to the Torque3D community.
 * This demo levels have some custom scripts to work as GarageGames intended.
 * This demo levels miss some arts for license related issues.
 * This demo levels don't have nothing removed, except some duplicate arts.
