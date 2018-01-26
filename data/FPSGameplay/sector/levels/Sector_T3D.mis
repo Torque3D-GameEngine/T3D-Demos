@@ -33,7 +33,7 @@ new SimGroup(MissionGroup) {
          cameraSpeed = "5 200";
          desc0 = "A futuristic city with a fantastic view";
          levelName = "Bram Cityscape - 360";
-         preview = "./Sector_T3D_preview";
+         preview = "data/FPSGameplay/levels/Sector_T3D_preview";
          worldSize = "10000";
    };
    new MissionArea(theMissionArea) {
