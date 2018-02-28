@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="ChinaTown_Mist"
+    FriendlyName="ChinaTown - Mist"
+    LevelFile="data/FPSGameplay/levels/ChinaTown_Mist.mis"
+    Description="ChinaTown - Mist"
+    VersionId="1" />

@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Convex_Land"
+    FriendlyName="Convex Land"
+    LevelFile="data/FPSGameplay/levels/Convex Land.mis"
+    Description="Somewhat like BlockLand only more convexy."
+    VersionId="1" />

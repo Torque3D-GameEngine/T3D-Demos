@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="ChinaTown_Eerie"
+    FriendlyName="ChinaTown - Eerie"
+    LevelFile="data/FPSGameplay/levels/ChinaTown_Eerie.mis"
+    Description="ChinaTown - Eerie"
+    VersionId="1" />

@@ -18,20 +18,9 @@ mars/levels/Burg_preview.png
 mars/levels/Convex Land.mis
 mars/levels/Convex Land_preview.png
 
-Remember to put this lines of code at the top of the [Level_Name].mis file in this order.
-
-// LOAD MARS BURG DEATHBALL DATABLOCKS
-exec("data/FPSGameplay/mars/scripts/datablocks/managedDecalData.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/managedItemData.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/brushes.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/audioData.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/audioProfiles.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/particles.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/environment.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/weapons/grenadeLauncher.cs");
-exec("data/FPSGameplay/mars/scripts/datablocks/player.cs");
+Remember to put this line of code at the top of the [Level_Name].mis file in this order.
 
 // LOAD MARS BURG DEATHBALL SERVER SCRIPTS
-exec("data/FPSGameplay/mars/scripts/server/deathMatchGame.cs");
+exec("data/FPSGameplay/mars/mars.cs");
 
 If you want to play as Gideon in Burg level and use his weapon, type preparePlayer(); in the console. After the level finished loading.

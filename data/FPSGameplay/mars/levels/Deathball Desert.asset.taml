@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Deathball_Desert"
+    FriendlyName="Deathball Desert"
+    LevelFile="data/FPSGameplay/levels/Deathball Desert.mis"
+    Description="Beware the Deathball when running around this dry, hot desert!"
+    VersionId="1" />

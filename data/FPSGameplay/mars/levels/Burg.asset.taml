@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Burg"
+    FriendlyName="Burg"
+    LevelFile="data/FPSGameplay/levels/Burg.mis"
+    Description="Dawn of Technology"
+    VersionId="1" />

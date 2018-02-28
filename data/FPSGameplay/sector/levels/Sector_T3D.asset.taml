@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Sector_T3D"
+    FriendlyName="Bram Cityscape - 360"
+    LevelFile="data/FPSGameplay/levels/Sector_T3D.mis"
+    Description="A futuristic city with a fantastic view"
+    VersionId="1" />

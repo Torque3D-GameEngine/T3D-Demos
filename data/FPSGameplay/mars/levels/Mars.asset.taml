@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Mars"
+    FriendlyName="Mars"
+    LevelFile="data/FPSGameplay/levels/Mars.mis"
+    Description="Death At Dawn"
+    VersionId="1" />

@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Pacific_NoPhysics"
+    FriendlyName="Pacific NoPhysics"
+    LevelFile="data/FPSGameplay/levels/Pacific_NoPhysics.mis"
+    Description="A Pacific Island."
+    VersionId="1" />
