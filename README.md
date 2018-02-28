@@ -36,10 +36,12 @@ Should be like this:
 * MyGame/data/FPSGameplay/fpstutorial/
 * MyGame/data/FPSGameplay/mars/
 
-5) Copy and paste all the level files from the demos, data/FPSGameplay/[demo]/[levels]/[level.mis] into data/FPSGameplay/levels/
-like this:
-MyGame/data/FPSGameplay/pacific/levels/Pacific.mis
-into
-MyGame/data/FPSGameplay/levels/Pacific.mis
+5) Copy and paste all the level files from the demos, data/FPSGameplay/[demo]/[levels]/[level.mis] into data/FPSGameplay/levels/.
+
+Like this:
+* MyGame/data/FPSGameplay/pacific/levels/Pacific.mis
+
+Into:
+* MyGame/data/FPSGameplay/levels/Pacific.mis
 
 6) Play
