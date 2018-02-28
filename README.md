@@ -19,6 +19,7 @@ GarageGames released the arts of T3D Demos with MIT License. You can download th
 * This demo levels have removed some duplicate arts found in FPSGameplay. (You need to use the BaseGame/FPSGameplay)
 * This demo levels have removed some duplicate arts from the levels to lower the size of the demos. You need to use the three (3) demos to work. Ex. The level_B.mis use the same trees as level A.mis, so, the art/shapes/trees from level_B.mis was remove it in favor of the art/shapes/trees from level_A.mis
 
+**Note:** Some duplicate arts from the levels was removed to lower the size of the demos. You need to use the three (3) demos to work.
 
 ## Instruction
 
@@ -27,8 +28,18 @@ You need http://www.7-zip.org/ to decompress the files.
 1) Download or compile T3D engine as usual. You can download from here https://github.com/GarageGames/Torque3D or from here https://github.com/John3/Torque3D_Unofficial/releases download the following files *3d_BaseGame.7z, t3d_Modules.7z, t3d_engine_x##.7z*
 2) You need to use the "Module Template". BaseGame and FPSGameplay.
 3) Go here https://github.com/Torque3D-GameEngine/T3D-Demos/releases and download the T3D-Demos.7z
-4) Copy the folder inside data/FPSGameplay/ folder
-4) Copy the data/FPSGameplay/[demo]/[levels]/[level.mis] into data/FPSGameplay/levels/
-5) Play
 
-**Note:** Some duplicate arts from the levels was removed to lower the size of the demos. You need to use the three (3) demos to work.
+4) Extract inside MyGame/data/FPSGameplay/
+Should be like this: 
+* MyGame/data/FPSGameplay/pacific/
+* MyGame/data/FPSGameplay/sector/
+* MyGame/data/FPSGameplay/fpstutorial/
+* MyGame/data/FPSGameplay/mars/
+
+5) Copy and paste all the level files from the demos, data/FPSGameplay/[demo]/[levels]/[level.mis] into data/FPSGameplay/levels/
+like this:
+MyGame/data/FPSGameplay/pacific/levels/Pacific.mis
+into
+MyGame/data/FPSGameplay/levels/Pacific.mis
+
+6) Play
